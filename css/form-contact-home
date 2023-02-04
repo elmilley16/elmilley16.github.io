@@ -1,0 +1,80 @@
+input,
+textarea {
+    width: 100%;
+    padding: 0 .5rem .5rem 0;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--clr-neutral-50);
+    background-color: var(--clr-primary-400);
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: var(--clr-neutral-50);
+}
+
+textarea {
+    min-height: 10rem;
+}
+
+@media screen and (max-width: 414px) {
+    [title="reCAPTCHA"] {
+        margin-left: -15px
+    }
+}
+
+.home-contact-form {
+    padding: 3rem;
+    min-width: 330px;
+    box-shadow: 0 0 15px 0 var(--clr-neutral-300);
+    background-color: var(--clr-primary-400);
+    border-radius: .5rem;
+}
+
+@media screen and (min-width: 992px) {
+    .home-contact-form {
+        padding: 3rem;
+        margin-left: -5rem;
+        margin-right: 5rem;
+        box-shadow: 0 0 15px 0 var(--clr-neutral-300);
+        background-color: var(--clr-primary-400);
+        border-radius: .5rem;
+        opacity: .9;
+    }
+}
+
+.btn-home-contact:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--clr-neutral-200);
+}
+
+.btn-home-contact {
+    border: none;
+    padding: .75rem 1.25rem;
+    border-radius: .5rem;
+    background-color: var(--clr-neutral-900);
+    color: white;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.btn-home-contact:hover,
+.btn-home-contact:hover {
+    background: var(--clr-neutral-200);
+    color: var(--clr-neutral-50);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: none;
+    box-shadow: 0 0 0 2px var(--clr-neutral-900);
+}
+
+@media screen and (max-width: 1200px) {
+    .btn-home-contact {
+        margin-top: 1.5rem;
+    }
+}

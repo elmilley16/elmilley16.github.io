@@ -1,0 +1,191 @@
+/*----RENTALS----*/
+
+.rental-odd div img {
+    transform: translate(86px, -42px);
+}
+
+.rental-odd {
+    padding-bottom: 5rem;
+}
+
+.rental-even {
+    padding-bottom: 4.125rem;
+}
+
+@media screen and (max-width: 576px) {
+    .rental-even div img {
+        transform: translate(86px, -42px);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 885px) {
+    .rental-even div img {
+        transform: translate(278px, -42px);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 885px) {
+    .rental-odd div img {
+        transform: translate(278px, -42px);
+    }
+}
+
+@media screen and (min-width: 885px) {
+    .rental-even {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-top: 6.625rem;
+    }
+}
+
+@media screen and (min-width: 885px) {
+    .rental-odd {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .rental-card-meta {
+        margin-left: 5.5rem;
+        padding-bottom: 4rem;
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 885px) {
+    .rental-card-meta {
+        transform: translate(192px)
+    }
+}
+
+@media screen and (min-width: 885px) and (max-width: 1200px) {
+    .rental-card-img-wrapper-odd {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .rental-card-img-wrapper-even {
+        margin-left: 32rem;
+    }
+
+    .rental-card-img-wrapper-even img,
+    .rental-card-img-wrapper-odd img {
+        max-width: fit-content;
+    }
+}
+
+@media screen and (min-width: 885px) and (max-width: 1200px) {
+    .rental-card-img-wrapper-even {
+        margin-left: 33rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .copy-text-odd {
+        margin-left: 26rem;
+        margin-top: -23rem;
+        max-width: 333px;
+    }
+}
+
+@media screen and (min-width: 885px) and (max-width: 1200px) {
+    .copy-text-odd {
+        margin-left: 26rem;
+        margin-top: -23rem;
+        max-width: 333px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .copy-text-even {
+        margin-left: 8rem;
+        margin-top: -26rem;
+        max-width: 333px;
+    }
+}
+
+@media screen and (min-width: 885px) and (max-width: 1200px) {
+    .copy-text-even {
+        margin-left: 8rem;
+        margin-top: -26rem;
+        max-width: 333px;
+    }
+}
+
+
+/*----TESTIMONIALS----*/
+
+.home-testimonial-bg-img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url("{{ 'fire-escape-stairs.jpg' | asset_path }}");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    isolation: isolate;
+}
+
+@media screen and (min-width: 416px) and (max-width: 768px) {
+    .home-testimonial-bg-img {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .home-testimonial-bg-img {
+        height: 100%;
+        background-attachment: local;
+    }
+}
+
+.home-testimonial-bg-img::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: black;
+    opacity: .45;
+}
+
+.testimonial-spacing {
+    padding-top: 6rem;
+}
+
+.blockquote {
+    position: relative;
+    margin-bottom: 3rem;
+    font-size: var(--fs-420);
+}
+
+.blockquote::before {
+    content: open-quote;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 65%;
+    color: var(--clr-neutral-200);
+    font-size: 6rem;
+}
+
+.blockquote::after {
+    content: close-quote;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .blockquote {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blockquote::before {
+        bottom: 44%;
+    }
+}

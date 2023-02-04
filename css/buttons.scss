@@ -1,0 +1,76 @@
+.box-transparent {
+    border: 2px solid var(--clr-accent-100);
+    width: 145px;
+    text-align: center;
+    padding: 12px 20px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.box-transparent:hover {
+    background-color: var(--clr-accent-100);
+}
+
+.box-transparent:hover a {
+    color: var(--clr-neutral-200);
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.call-us-button {
+    position: absolute;
+    top: 95px;
+    left: 60%;
+    z-index: 1;
+    width: 200px;
+    text-align: center;
+    background-color: var(--clr-primary-400);
+    opacity: 0.9;
+    color: var(--clr-neutral-50);
+
+    a:hover {
+        color: var(--clr-neutral-200);
+    }
+}
+
+/* ------ CAROUSEL ------*/
+
+@media screen and (max-width: 768px) {
+    .call-us-button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 0 0.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:focus {
+    outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    left: 1rem;
+}
+
+.carousel-button.next {
+    right: 1rem;
+}

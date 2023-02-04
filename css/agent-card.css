@@ -1,0 +1,87 @@
+.agent-card-container {
+    position: relative;
+    box-shadow: 0 0 10px 0 var(--clr-primary-400);
+    background-color: var(--clr-primary-400);
+    color: white;
+    min-width: 356px;
+    max-width: 456px;
+    border-radius: 10px;
+    perspective: 1px;
+    transform-style: preserve-3d;
+}
+
+/* agent card animations */
+
+.agent-card-container:hover::before {
+    -webkit-transform: rotate(2deg) translateX(-5px) translateY(16px);
+    transform: rotate(2deg) translateX(-5px) translateY(16px);
+}
+
+.agent-card-container::before {
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: 1px;
+    left: 1px;
+    z-index: -1;
+    width: 95%;
+    height: 95%;
+    background-color: var(--clr-neutral-200);
+    border-radius: 10px;
+    outline: 1px solid transparent;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.agent-card-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-primary-400);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/*----------*/
+
+.agent-card-pipeline img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.agent-card-pipeline::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: var(--clr-neutral-200);
+    width: 2px;
+    height: 125px;
+    top: 50%;
+    left: 38%;
+    transform: translate(-38%, -50%);
+}
+
+.agent-card-details {
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    width: 11.5rem;
+}
+
+.agent-card-icon {
+    position: absolute;
+    left: -10%;
+    transform: translateX(-10%);
+}
+
+.agent-card-details>div {
+    /* margin-left: .625rem; */
+    margin-bottom: .625rem;
+}
+
+.agent-card-details>div>a:hover {
+    color: var(--clr-neutral-900) !important;
+}
