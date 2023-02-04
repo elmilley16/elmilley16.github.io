@@ -124,7 +124,7 @@
     position: relative;
     width: 100%;
     height: 600px;
-    background-image: url("{{ 'fire-escape-stairs.jpg' | asset_path }}");
+    background-image: url("/assets/fire-escape-stairs.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -188,4 +188,9 @@
     .blockquote::before {
         bottom: 44%;
     }
+}
+
+.services-icon img {
+    width: 80px;
+    height: 80px;
 }
