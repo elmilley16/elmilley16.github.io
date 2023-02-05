@@ -17,7 +17,7 @@ textarea {
     min-height: 10rem;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 415px) {
     [title="reCAPTCHA"] {
         margin-left: -15px
     }
@@ -76,5 +76,16 @@ textarea:focus {
 @media screen and (max-width: 1200px) {
     .btn-home-contact {
         margin-top: 1.5rem;
+    }
+}
+
+.captcha {
+    margin-left: 1.7rem;
+    height: 78px;
+}
+
+@media screen and (max-width: 416px) {
+    .captcha {
+        margin-left: .8rem;
     }
 }

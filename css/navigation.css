@@ -112,6 +112,11 @@
         opacity: 1;
         transition: opacity 250ms ease-in-out 250ms;
     }
+
+    .dropdown .dropdown-menu,
+    .dropdown:hover .dropdown-menu {
+        position: static;
+    }
 }
 
 /* mobile button unchecked */
@@ -129,6 +134,7 @@
 
 
 }
+
 /*--------------*/
 
 .fixed {
@@ -201,5 +207,4 @@
 
 .navbar-item a:focus {
     outline: none;
-    box-shadow: 0 0 0 1px var(--clr-neutral-900);
 }

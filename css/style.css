@@ -118,6 +118,12 @@ svg {
   }
 }
 
+/* additional default styles */
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 /* utility classes */
 

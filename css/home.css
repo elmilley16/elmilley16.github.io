@@ -194,3 +194,11 @@
     width: 80px;
     height: 80px;
 }
+
+/*----CONTACT----*/
+
+@media screen and (min-width: 992px) {
+    .contact-subheading {
+        text-align: center;
+    }
+}
