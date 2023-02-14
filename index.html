@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emma Milley</title>
+    <link rel="stylesheet" href="/css/vendors/slick.css">
+    <link rel="stylesheet" href="/css/vendors/slick-theme.css">
     <link rel="stylesheet" href="/css/vendors/bootstrap.css">
     <link rel="stylesheet" href="/css/vendors/fontawesome.css">
     <link rel="stylesheet" href="/css/agent-card.css">
@@ -24,6 +26,8 @@
 
     <script src="js/vendors/bootstrap.bundle.min.js" defer></script>
     <script src="js/vendors/csi.min.js" defer></script>
+    <script src="js/vendors/slick.min.js" defer></script>
+    <script src="js/custom.js" defer></script>
 </head>
 
 <body>
@@ -31,7 +35,30 @@
     <div data-include="navigation.html"></div>
 
     <main class="main-content">
-        <div data-include="home-carousel.html"></div>
+
+        <!-- carousel -->
+        <section aria-label="latest properties" id="carousel"> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="library-wrapper p-0">
+                        <div class="library-carousel">
+                            <div class="col-4">
+                                <img src="/assets/house-landscape-3.jpg">
+                            </div>
+                            <div class="col-4">
+                                <img src="/assets/house-landscape-2.jpg">
+                            </div>
+                            <div class="col-4">
+                                <img src="/assets/house-landscape-1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    </section>
+        <!-- // -->
+
+
         <div data-include="home-feature-properties.html"></div>
         <div data-include="home-rental-properties.html"></div>
         <div data-include="home-our-services.html"></div>
@@ -41,5 +68,11 @@
 
     <!-- footer -->
     <div data-include="footer.html"></div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
