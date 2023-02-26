@@ -17,6 +17,7 @@
   transition: 0.5s ease-in-out;
 }
 
+/* todo: add */
 .call-us-button {
   position: absolute;
   top: 95px;
@@ -27,10 +28,6 @@
   background-color: var(--clr-primary-400);
   opacity: 0.9;
   color: var(--clr-neutral-50);
-
-  /* a:hover {
-      color: var(--clr-neutral-200);
-  } */
 }
 
 .call-us-button a:hover {

@@ -50,8 +50,18 @@
   background-color: var(--clr-primary-400);
   opacity: 0.9;
   color: #fff;
-  min-width: 355px;
-  max-width: 350px;
   padding: 2rem;
-  transform: translate(86px, -120px);
+}
+
+@media screen and (min-width: 769px) {
+  .transparent-listing-card {
+    /* background-color: var(--clr-primary-400);
+    opacity: 0.9;
+    color: #fff; */
+    min-width: 355px;
+    max-width: 350px;
+    padding: 2rem;
+    margin-bottom: -18rem;
+    transform: translate(86px, -300px);
+  }
 }
