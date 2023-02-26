@@ -34,8 +34,6 @@
   color: var(--clr-neutral-200);
 }
 
-/* ------ CAROUSEL ------*/
-
 @media screen and (max-width: 768px) {
   .call-us-button {
       left: 50%;
