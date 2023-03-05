@@ -1,0 +1,67 @@
+.library-carousel {
+  overflow: hidden;
+}
+
+.library-carousel img {
+  height: 75vh;
+  width: 100%;
+  max-width: 100%;
+}
+
+.slider-prev,
+.slider-next {
+  display: block;
+  position: absolute;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.slider-prev {
+  left: 20px;
+  font-size: 3rem;
+}
+
+.slider-next {
+  right: 20px;
+  font-size: 3rem;
+}
+
+.carousel-card-button {
+  border: 2px solid #ffffff;
+  text-align: center;
+  padding: 0.5rem 4rem;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.carousel-card-button:hover {
+  background-color: var(--clr-neutral-200);
+  color: var(--clr-primary-400);
+  transition: .5s ease-in-out;
+}
+
+.transparent-listing-card {
+  background-color: var(--clr-primary-400);
+  opacity: 0.9;
+  color: #fff;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .transparent-listing-card {
+    /* background-color: var(--clr-primary-400);
+    opacity: 0.9;
+    color: #fff; */
+    min-width: 355px;
+    max-width: 350px;
+    padding: 2rem;
+    margin-bottom: -18rem;
+    transform: translate(86px, -300px);
+  }
+}
