@@ -2,10 +2,23 @@
   overflow: hidden;
 }
 
+/* update to work on mobile */
 .library-carousel img {
-  height: 75vh;
+  height: 38vh;
   width: 100%;
-  max-width: 100%;
+  contain: strict;
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .library-carousel img {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 913px) {
+  .library-carousel img {
+    height: 75vh;
+  }
 }
 
 .slider-prev,

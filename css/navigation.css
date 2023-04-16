@@ -1,6 +1,6 @@
 /*----PRIMARY HEADER----*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .primary-navigation {
         position: fixed;
         inset: -80px 30% 20% 0%;
@@ -54,7 +54,7 @@
 /*----MOBILE MENU BUTTON----*/
 
 /* mobile button */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .nav-toggle:checked~div>ul {
         transform: scale(1, 1);
     }
@@ -102,7 +102,7 @@
 }
 
 /* mobile button links */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     nav .primary-navigation a {
         opacity: 0;
         transition: opacity 150ms ease-in-out;
@@ -121,7 +121,7 @@
 
 /* mobile button unchecked */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     input:checked+label span:before {
         left: -4px;
         transition: left 500ms;
@@ -154,7 +154,7 @@
 
 @media screen and (min-width: 768px) {
     .navbar {
-        padding: 9px;
+        padding: .5rem;
     }
 }
 
@@ -167,7 +167,7 @@
     padding-right: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar-logo-item {
         display: none;
     }
@@ -187,7 +187,7 @@
 }
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .navbar-logo-item-mobile {
         display: none;
     }
