@@ -13,12 +13,6 @@
     padding-top: 1em;
 }
 
-@media screen and (max-width: 576px) {
-    .listing-card {
-        padding-right: 0;
-    }
-}
-
 .hover-grey {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
@@ -29,14 +23,4 @@
 .hover-grey:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
-
-.copy-text-sm-screen {
-    margin-right: 3rem;
-}
-
-@media screen and (max-width: 576px) {
-    .copy-text-sm-screen {
-        margin-right: 0;
-    }
 }
