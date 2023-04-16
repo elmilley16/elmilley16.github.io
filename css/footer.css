@@ -1,131 +1,131 @@
 /*---GENERAL---*/
 footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 /*----LOGO+SOCIALS----*/
 .logo-footer {
-    width: 10rem;
-    margin: 2rem 2rem 0rem;
+  width: 10rem;
+  margin: 2rem 2rem 0rem;
 }
 
 .social-links-footer i {
-    color: var(--clr-neutral-200);
-    font-size: var(--fs-500);
-    margin: 0 1rem 0;
+  color: var(--clr-neutral-200);
+  font-size: var(--fs-500);
+  margin: 0 1rem 0;
 }
 
 .social-links-footer {
-    display: flex;
+  display: flex;
 }
 
 /* social links animation */
 
 .social-links-footer a i {
-    display: inline-block;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    animation: rotate-social-link .3s linear 1;
+  display: inline-block;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  animation: rotate-social-link .3s linear 1;
 }
 
 .social-links-footer a i:hover {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-    animation: rotate-social-link .4s linear 1;
-    -webkit-animation: rotate-social-link-hover .4s linear 1 .4s;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  animation: rotate-social-link .4s linear 1;
+  -webkit-animation: rotate-social-link-hover .4s linear 1 .4s;
 }
 
 
 @keyframes rotate-social-link-hover {
-    0% {
-        transform: rotate(0);
-    }
+  0% {
+    transform: rotate(0);
+  }
 
-    100% {
-        transform: rotate(-360deg);
-    }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 @keyframes rotate-social-link {
-    0% {
-        transform: rotate(0);
-    }
+  0% {
+    transform: rotate(0);
+  }
 
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*----NAVIGATION----*/
 .navigation-footer {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .footer-list-right div:not(:last-child)::after {
-    content: '|';
-    padding-left: 1.875rem;
-    color: var(--clr-neutral-200);
+  content: '|';
+  padding-left: 1.875rem;
+  color: var(--clr-neutral-200);
 }
 
 @media screen and (max-width: 576px) {
-    .footer-item-right-first::after {
-        padding-left: 1.7rem !important;
-    }
+  .footer-item-right-first::after {
+    padding-left: 1.7rem !important;
+  }
 
-    .footer-list-right div:not(:last-child)::after {
-        content: '|';
-        padding-left: 2.9rem;
-        color: var(--clr-neutral-200);
-    }
+  .footer-list-right div:not(:last-child)::after {
+    content: '|';
+    padding-left: 2.9rem;
+    color: var(--clr-neutral-200);
+  }
 
-    .footer-list-right div::after {
-        content: '|';
-        padding-left: .9rem;
-        color: var(--clr-neutral-200);
-    }
+  .footer-list-right div::after {
+    content: '|';
+    padding-left: .9rem;
+    color: var(--clr-neutral-200);
+  }
 }
 
 .footer-list-left div::after {
-    content: '|';
-    padding-left: 1.875rem;
-    color: var(--clr-neutral-200);
+  content: '|';
+  padding-left: 1.875rem;
+  color: var(--clr-neutral-200);
 }
 
 @media screen and (max-width: 576px) {
-    .footer-list-left div:not(:last-child)::after {
-        content: '|';
-        padding-left: 2.9rem;
-        color: var(--clr-neutral-200);
-    }
+  .footer-list-left div:not(:last-child)::after {
+    content: '|';
+    padding-left: 2.9rem;
+    color: var(--clr-neutral-200);
+  }
 
-    .footer-list-left div::after {
-        content: '|';
-        padding-left: 2.9rem;
-        color: var(--clr-neutral-200);
-    }
+  .footer-list-left div::after {
+    content: '|';
+    padding-left: 2.9rem;
+    color: var(--clr-neutral-200);
+  }
 }
 
 .footer-list-left {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
 }
 
 .footer-item {
-    width: 100px;
-    text-align: left;
+  width: 100px;
+  text-align: left;
 }
 
 @media screen and (max-width: 576px) {
-    .footer-item {
-        padding-right: 6rem;
-    }
+  .footer-item {
+    padding-right: 6rem;
+  }
 }
 
 .footer-item-align {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }

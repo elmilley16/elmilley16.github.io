@@ -1,35 +1,35 @@
 .skip-link {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: .5rem;
-    translate: 0 -100%;
-    z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: .5rem;
+  translate: 0 -100%;
+  z-index: 999;
 }
 
 .skip-link:focus {
-    translate: 0;
+  translate: 0;
 }
 
 .main-content {
-    position: relative;
-    padding-top: 5rem;
+  position: relative;
+  padding-top: 5rem;
 }
 
 .clean-link:hover {
-    color: inherit;
+  color: inherit;
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 hr {
-  border: 1px solid #fffff;
+  border: 1px solid #ffffff;
   opacity: 1;
 }

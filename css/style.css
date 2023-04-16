@@ -1,14 +1,14 @@
 :root {
     /* colours */
-    --clr-primary-400: hsl(217, 96%, 11%); /* Oxford Blue --using */
+    --clr-primary-400: hsl(217, 96%, 11%); /* Oxford Blue */
     --clr-accent-100: hsl(208, 48%, 37%); /* Lapis Lazuli - blue */
     --clr-accent-400: hsl(220, 54%, 19%); /* faded blue */
 
-    --clr-neutral-50: hsl(0, 0%, 100%); /* white --using */
+    --clr-neutral-50: hsl(0, 0%, 100%); /* white */
     --clr-neutral-100: hsl(60, 0.5%, 62.5%); /* light grey */
-    --clr-neutral-200: hsl(36, 35%, 68%); /* gold yellow -- using */
+    --clr-neutral-200: hsl(36, 35%, 68%); /* gold yellow */
     --clr-neutral-300: hsl(217, 45%, 24%); /* grey blue */
-    --clr-neutral-900: hsl(197, 24%, 57%); /* pewter blue -- using */
+    --clr-neutral-900: hsl(197, 24%, 57%); /* pewter blue */
 
     /* -- fonts -- */
     --ff-thin: "Be Vietnam Pro thin", sans-serif;
