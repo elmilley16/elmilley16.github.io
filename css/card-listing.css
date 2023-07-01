@@ -1,26 +1,26 @@
 .listing-card-img-wrapper,
 .listing-card-img-wrapper-odd,
 .listing-card-img-wrapper-even {
-    position: relative;
+  position: relative;
 }
 
 .listing-card a {
-    text-decoration: none;
-    color: var(--clr-accent-100);
+  text-decoration: none;
+  color: var(--clr-accent-100);
 }
 
 .listing-card-meta {
-    padding-top: 1em;
+  padding-top: 1em;
 }
 
 .hover-grey {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .hover-grey:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }

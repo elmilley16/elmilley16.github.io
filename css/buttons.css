@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 768px) {
   .call-us-button {
-      left: 50%;
-      transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
