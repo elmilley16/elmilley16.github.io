@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Our amazing team at Agency Ipsum are ready to answer all your questions. Get in touch today!">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+  <title>Contact Us | Agency Ipsum</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+  <link rel="stylesheet" href="/css/vendors/slick.css">
+  <link rel="stylesheet" href="/css/vendors/slick-theme.css">
+  <link rel="stylesheet" href="/css/vendors/bootstrap.css">
+  <link rel="stylesheet" href="/css/vendors/fontawesome.css">
+  <link rel="stylesheet" href="/css/agent-card.css">
+  <link rel="stylesheet" href="/css/buttons.css">
+  <link rel="stylesheet" href="/css/card-listing.css">
+  <link rel="stylesheet" href="/css/carousel.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/form-contact-home.css">
+  <link rel="stylesheet" href="/css/home-contact.css">
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/navigation.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="js/vendors/bootstrap.bundle.min.js" defer></script>
+  <script src="js/vendors/csi.min.js" defer></script>
+  <script src="js/vendors/slick.min.js" defer></script>
+  <script src="js/custom.js" defer></script>
+  <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+</head>
+
+<body>
+  <!-- navigation -->
+  <div data-include="navigation.html"></div>
+
+  <div class="container-fluid px-0">
+    <div class="row">
+      <picture>
+        <source
+          srcset="/assets/hinterlands-riverside-3000.png"
+          media="(min-width:1920px)"
+        >
+        <source
+          srcset="/assets/hinterlands-riverside-1920.png"
+          media="(min-width: 830px)"
+        >
+        <source
+          srcset="/assets/hinterlands-riverside-840.png"
+          media="(min-width: 416px)"
+          >
+        <img class="mt-6rem w-100" src="/assets/hinterlands-riverside-415.png" alt="Hinterlands">
+      </picture>
+    </div>
+  </div>
+
+  <main class="mb-6rem mt-5" aria-label="Contact form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="home-contact-heading">
+            <h2 class="d-inline-block w-100 fs-550 fw-bold text-primary-400">Have Any Questions?</h2>
+            <h3 class="d-inline-block w-100 fs-500 fw-bold text-primary-400 contact-subheading">We're here to help</h3>
+          </div>
+          <div>
+            <!--home contact details-->
+            <div class="contact-details-container">
+              <div class="row">
+                <div class="col-md-12">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Address
+                  <div class="fs-300 mt-n4 ms-3-rem">16 Riverside Way, Hinterlands</div>
+                </div>
+                <div>
+                  <i class="fa-regular fa-envelope"></i>
+                  Email
+                  <div class="fs-300 mt-n4 ms-3-rem"><a href="mailto:office@office.com">office@office.com</a></div>
+                </div>
+                <div>
+                  <i class="fa-solid fa-phone"></i>
+                  Phone
+                  <div class="fs-300 mt-n4 ms-3-rem"><a href="tel:03 9696 9696">03 9444 9444</a>
+                  </div>
+                </div>
+              </div>
+            </div> <!--//contact details-->
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <h2 class="d-inline-block w-100 fs-550 fw-bold mobile-mb-3 text-primary-400">Contact Us</h2>
+          <!--home contact form-->
+
+          <div class="home-contact-form">
+            <!--<form action="/" method="get">-->
+            <form action="/elmilley16.github.io/" method="post" enctype="multipart/form-data">
+              <input type="hidden" name="details[Subject]" value="Contact Request">
+              <input type="hidden" name="details[Sent from]" value="www.ipsum.com/home">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="full_name" class="visually-hidden">Full Name</label>
+                  <input type="text" id="full_name" name="details[Full Name]" placeholder="Full Name*" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="mobile" class="visually-hidden">Mobile</label>
+                  <input type="tel" id="mobile" name="details[Mobile]" placeholder="Mobile*" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="email" class="visually-hidden">Email</label>
+                  <input type="email" id="Email" name="details[Email]" placeholder="Email*" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="message" class="visually-hidden">Message</label>
+                  <textarea type="text" id="message" name="details[Message]" placeholder="Message*" required></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-8 p-0 home-captcha">
+                  <div class="g-recaptcha" data-sitekey="site_key"></div>
+                </div>
+                <div class="col-xl-4">
+                  <button type="submit" class="btn-home-contact">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div> <!--// end contact form-->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <div data-include="footer.html"></div>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
